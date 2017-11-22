@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+界面中的显示效果
+该设置和本app的效果相同，如有其他UI样式，自己修改此处
+-->
+
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:drawable="@drawable/ms_selector_style_pressed" android:state_pressed="true"/>
+    <!--默认-->
+    <item android:drawable="@drawable/ms_selector_style_default" android:state_pressed="false"/>
+</selector>

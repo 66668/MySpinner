@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  -->
+
+<resources>
+    <dimen name="ms_padding_left">10dp</dimen><!--布局-->
+    <dimen name="ms_padding_right">10dp</dimen><!--布局-->
+    <dimen name="ms_item_height">31dp</dimen> <!--item的高度-->
+    <dimen name="ms_item_padding_left">10dp</dimen><!--item-->
+</resources>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+
+  -->
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <declare-styleable name="MaterialSpinner" tools:ignore="ResourceName">
+        <attr name="ms_arrow_tint" format="color"/>
+        <attr name="ms_hide_arrow" format="boolean"/><!--spinner箭头隐藏，默认不隐藏-->
+        <attr name="ms_background_color" format="color"/><!--背景色-->
+        <attr name="ms_text_color" format="color"/><!--item字体颜色-->
+        <attr name="ms_background_selector" format="integer"/><!--spinner的item设置最底层的颜色（一般会被表层颜色覆盖，效果不大）-->
+        <attr name="ms_popupwindow_maxheight" format="dimension"/> <!--spinner下拉框最高高度-->
+        <attr name="ms_popupwindow_height" format="dimension"><!--spinner下拉框高度,list高度不够，默认伸展长度-->
+            <enum name="fill_parent" value="-1"/>
+            <enum name="match_parent" value="-1"/>
+            <enum name="wrap_content" value="-2"/>
+        </attr>
+
+    </declare-styleable>
+</resources>
